@@ -33,7 +33,7 @@
         _webView =[[UIWebView alloc]initWithFrame:self.view.frame];
 //        NSURLRequest *request=[NSURLRequest requestWithURL:[NSURL URLWithString:url]];
 //        [_webView loadRequest:request];
-        [_webView loadHTMLString:@"<body>你好啊</body>" baseURL:nil];
+        [_webView loadHTMLString:@"<body>报名须知／新手上路</body>" baseURL:nil];
         [self.view addSubview:_webView];
     }
     return  self;

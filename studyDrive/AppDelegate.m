@@ -16,7 +16,8 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    //change launch page load time:delay 2.0 seconds;
+    [NSThread sleepForTimeInterval:1.0];
     return YES;
 }
 
