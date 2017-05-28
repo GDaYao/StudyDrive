@@ -1,7 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -14,14 +18,38 @@
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="drive-Laun-375*667.png" translatesAutoresizingMaskIntoConstraints="NO" id="Pqd-X6-R8a">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="您的驾照小助手" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cqb-rb-0L4">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="258"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <color key="textColor" red="0.061662399620000002" green="0.75773319839999997" blue="0.96621346470000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Pqd-X6-R8a" secondAttribute="trailing" id="3wD-2V-u0B"/>
+                            <constraint firstAttribute="trailing" secondItem="cqb-rb-0L4" secondAttribute="trailing" id="8mr-H1-EhR"/>
+                            <constraint firstItem="Pqd-X6-R8a" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="Ula-gC-YFq"/>
+                            <constraint firstItem="cqb-rb-0L4" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="mOC-A7-T8N"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="Pqd-X6-R8a" secondAttribute="bottom" id="p2F-Xx-8pa"/>
+                            <constraint firstItem="Pqd-X6-R8a" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="qWK-vO-Y9F"/>
+                            <constraint firstItem="cqb-rb-0L4" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="sxZ-1O-vtc"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="cqb-rb-0L4" secondAttribute="bottom" constant="478" id="zVX-rY-265"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="drive-Laun-375*667.png" width="375" height="667"/>
+    </resources>
 </document>
