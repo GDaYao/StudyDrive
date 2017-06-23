@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WebViewControllerNew">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GHq-nQ-zE2">
+                    <rect key="frame" x="16" y="65" width="343" height="589"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <mutableString key="text">                       新手上路  禁忌一：忘记检查轮胎
+            气温高，速度快，容易造成爆胎，爆胎会导致方向失控酿成事故。爆胎原因很多，防止爆胎，还要从出行前的准备说起。 
+技巧：出行前四个轮胎都要仔细检查一遍，最好到专业维修店调整好轮胎气压。尤其不要忘记检查备胎，看是否完好有气。中途休息时，也要检查轮胎，用拳头敲打一下，看是否正常。如果有漏气，要立即修补。一旦行驶中发生爆胎，不能急踩刹车，这样车子容易打横失控。要紧握方向盘，逐渐减速靠边。 
+禁忌二：时速快慢不均
+            高速公路就该高速行驶(在规定限速内)，但速度快了，新手会紧张，方向也会跑偏，易引发事故。但是慢了，尤其是正常路况下低于80公里/小时，容易给快速上来的后车造成视觉错误而发生追尾。 
+技巧：在上高速前，就给自己规定一个时速，这也为今后高速公路行驶，奠定一个“个性速度”。建议新手初次上高速，正常路况下保持90-100码，如果只能低于80码的，建议还是走普通公路。另外，尽量在车行道内行驶，不要长时间占用超车道。 
+</mutableString>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <point key="canvasLocation" x="25.5" y="52.5"/>
+        </view>
+    </objects>
+</document>

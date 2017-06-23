@@ -228,7 +228,6 @@
 		83B26FFC1ED92013000E0DE2 /* subjectTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B26FFB1ED92013000E0DE2 /* subjectTwoViewController.m */; };
 		83B270001ED9210C000E0DE2 /* subjectTwoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B26FFE1ED9210C000E0DE2 /* subjectTwoTableViewCell.m */; };
 		83B270011ED9210C000E0DE2 /* subjectTwoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83B26FFF1ED9210C000E0DE2 /* subjectTwoTableViewCell.xib */; };
-		83B270041ED96760000E0DE2 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B270031ED96760000E0DE2 /* WebViewController.m */; };
 		83B2700E1EDAC734000E0DE2 /* drive-iPhone-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83B2700C1EDAC734000E0DE2 /* drive-iPhone-icon@2x.png */; };
 		83B2700F1EDAC734000E0DE2 /* drive-iPhone-icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83B2700D1EDAC734000E0DE2 /* drive-iPhone-icon@3x.png */; };
 		83B270131EDAC9E8000E0DE2 /* study-iPad App@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83B270101EDAC9E8000E0DE2 /* study-iPad App@2x.png */; };
@@ -245,6 +244,10 @@
 		83B270271EDACCFF000E0DE2 /* drive-Spotlight@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83B270241EDACCFF000E0DE2 /* drive-Spotlight@1x.png */; };
 		83B270291EDACDE6000E0DE2 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 83B270281EDACDE6000E0DE2 /* Settings.bundle */; };
 		83B2702B1EDAD027000E0DE2 /* drive-Laun-375*667.png in Resources */ = {isa = PBXBuildFile; fileRef = 83B2702A1EDAD027000E0DE2 /* drive-Laun-375*667.png */; };
+		83CCB9DF1EFD068C004E0395 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83CCB9DD1EFD068C004E0395 /* WebViewController.m */; };
+		83CCB9E01EFD068C004E0395 /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83CCB9DE1EFD068C004E0395 /* WebViewController.xib */; };
+		83CCB9E41EFD0A22004E0395 /* WebViewControllerNew.m in Sources */ = {isa = PBXBuildFile; fileRef = 83CCB9E21EFD0A22004E0395 /* WebViewControllerNew.m */; };
+		83CCB9E51EFD0A22004E0395 /* WebViewControllerNew.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83CCB9E31EFD0A22004E0395 /* WebViewControllerNew.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -497,8 +500,6 @@
 		83B26FFD1ED9210C000E0DE2 /* subjectTwoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = subjectTwoTableViewCell.h; sourceTree = "<group>"; };
 		83B26FFE1ED9210C000E0DE2 /* subjectTwoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = subjectTwoTableViewCell.m; sourceTree = "<group>"; };
 		83B26FFF1ED9210C000E0DE2 /* subjectTwoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = subjectTwoTableViewCell.xib; sourceTree = "<group>"; };
-		83B270021ED96760000E0DE2 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
-		83B270031ED96760000E0DE2 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		83B2700C1EDAC734000E0DE2 /* drive-iPhone-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "drive-iPhone-icon@2x.png"; sourceTree = "<group>"; };
 		83B2700D1EDAC734000E0DE2 /* drive-iPhone-icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "drive-iPhone-icon@3x.png"; sourceTree = "<group>"; };
 		83B270101EDAC9E8000E0DE2 /* study-iPad App@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "study-iPad App@2x.png"; sourceTree = "<group>"; };
@@ -515,6 +516,12 @@
 		83B270241EDACCFF000E0DE2 /* drive-Spotlight@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "drive-Spotlight@1x.png"; sourceTree = "<group>"; };
 		83B270281EDACDE6000E0DE2 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		83B2702A1EDAD027000E0DE2 /* drive-Laun-375*667.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "drive-Laun-375*667.png"; sourceTree = "<group>"; };
+		83CCB9DC1EFD068C004E0395 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		83CCB9DD1EFD068C004E0395 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		83CCB9DE1EFD068C004E0395 /* WebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
+		83CCB9E11EFD0A22004E0395 /* WebViewControllerNew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewControllerNew.h; sourceTree = "<group>"; };
+		83CCB9E21EFD0A22004E0395 /* WebViewControllerNew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewControllerNew.m; sourceTree = "<group>"; };
+		83CCB9E31EFD0A22004E0395 /* WebViewControllerNew.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebViewControllerNew.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -624,8 +631,12 @@
 				83B26FF41ED81A68000E0DE2 /* MainTestViewController.xib */,
 				83B26FFA1ED92013000E0DE2 /* subjectTwoViewController.h */,
 				83B26FFB1ED92013000E0DE2 /* subjectTwoViewController.m */,
-				83B270021ED96760000E0DE2 /* WebViewController.h */,
-				83B270031ED96760000E0DE2 /* WebViewController.m */,
+				83CCB9DC1EFD068C004E0395 /* WebViewController.h */,
+				83CCB9DD1EFD068C004E0395 /* WebViewController.m */,
+				83CCB9DE1EFD068C004E0395 /* WebViewController.xib */,
+				83CCB9E11EFD0A22004E0395 /* WebViewControllerNew.h */,
+				83CCB9E21EFD0A22004E0395 /* WebViewControllerNew.m */,
+				83CCB9E31EFD0A22004E0395 /* WebViewControllerNew.xib */,
 				83B26FE21ED2F5EF000E0DE2 /* Tools */,
 			);
 			name = ViewController;
@@ -976,6 +987,7 @@
 				83B26F8C1ED187BE000E0DE2 /* 299.png in Resources */,
 				83B26F761ED187BE000E0DE2 /* 277.png in Resources */,
 				83B26F361ED187BE000E0DE2 /* 213.png in Resources */,
+				83CCB9E01EFD068C004E0395 /* WebViewController.xib in Resources */,
 				83B26FC81ED187BE000E0DE2 /* 687.png in Resources */,
 				83B26F921ED187BE000E0DE2 /* 305.png in Resources */,
 				83B26FAF1ED187BE000E0DE2 /* 334.png in Resources */,
@@ -1137,6 +1149,7 @@
 				83B26F601ED187BE000E0DE2 /* 255.png in Resources */,
 				83B26F481ED187BE000E0DE2 /* 231.png in Resources */,
 				83B26FC31ED187BE000E0DE2 /* 681.png in Resources */,
+				83CCB9E51EFD0A22004E0395 /* WebViewControllerNew.xib in Resources */,
 				83B2701F1EDACBD5000E0DE2 /* drive-Settings@3x.png in Resources */,
 				83B26FAE1ED187BE000E0DE2 /* 333.png in Resources */,
 				83B26F401ED187BE000E0DE2 /* 223.png in Resources */,
@@ -1207,7 +1220,7 @@
 				83B26FD91ED1BE3C000E0DE2 /* AnswerScrollView.m in Sources */,
 				83B26FCE1ED187BE000E0DE2 /* FMResultSet.m in Sources */,
 				83B26FCC1ED187BE000E0DE2 /* FMDatabasePool.m in Sources */,
-				83B270041ED96760000E0DE2 /* WebViewController.m in Sources */,
+				83CCB9DF1EFD068C004E0395 /* WebViewController.m in Sources */,
 				83B26FE81ED3093B000E0DE2 /* Tools.m in Sources */,
 				83B26D201ECE761F000E0DE2 /* FirstViewController.m in Sources */,
 				83B26FF51ED81A68000E0DE2 /* MainTestViewController.m in Sources */,
@@ -1216,6 +1229,7 @@
 				83B26D1A1ECBEE8D000E0DE2 /* selectView.m in Sources */,
 				83B26C931ECAA61C000E0DE2 /* main.m in Sources */,
 				83B26FF91ED85C04000E0DE2 /* QuestionCollectManager.m in Sources */,
+				83CCB9E41EFD0A22004E0395 /* WebViewControllerNew.m in Sources */,
 				83B26D2D1ED02C7C000E0DE2 /* TestSelectTableViewCell.m in Sources */,
 				83B26FCB1ED187BE000E0DE2 /* FMDatabaseAdditions.m in Sources */,
 				83B26FE11ED2CBDA000E0DE2 /* AnswerViewController.m in Sources */,
@@ -1380,6 +1394,7 @@
 				83B26CA71ECAA61C000E0DE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

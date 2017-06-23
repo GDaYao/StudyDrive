@@ -1,25 +1,27 @@
 //
-//  WebViewController.m
+//  WebViewControllerNew.m
 //  studyDrive
 //
 //  Created by GDaYao on 2017/6/23.
 //  Copyright © 2017年 GDaYao. All rights reserved.
 //
 
-#import "WebViewController.h"
+#import "WebViewControllerNew.h"
 
-@interface WebViewController ()
+@interface WebViewControllerNew ()
 
 @end
 
-@implementation WebViewController
+@implementation WebViewControllerNew
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    // Do any additional setup after loading the view from its nib.
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
 }
 
 /*

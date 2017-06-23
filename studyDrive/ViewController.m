@@ -10,6 +10,7 @@
 #import "FirstViewController.h"
 #import "subjectTwoViewController.h"
 #import "WebViewController.h"
+#import "WebViewControllerNew.h"
 
 
 @interface ViewController ()
@@ -32,15 +33,17 @@
             
         }
             break;
-        case 101:
+        case 101:   //科目一
         {
             UIBarButtonItem *item=[[UIBarButtonItem alloc]init];
             item.title=@"";
             self.navigationItem.backBarButtonItem=item;
-            [self.navigationController pushViewController:[[FirstViewController alloc]init] animated:YES];
+            FirstViewController *firstVC=[[FirstViewController alloc]init];
+            firstVC.title=@"科目一理论考试";
+            [self.navigationController pushViewController:firstVC animated:YES];
         }
             break;
-        case 102:
+        case 102:   //科目二
         {
             UIBarButtonItem *item=[[UIBarButtonItem alloc]init];
             item.title=@"";
@@ -49,14 +52,22 @@
             
         }
             break;
-        case 103:
+        case 103:   //科目三
         {
-            
+            UIBarButtonItem *item=[[UIBarButtonItem alloc]init];
+            item.title=@"";
+            self.navigationItem.backBarButtonItem=item;
+            [self.navigationController pushViewController:[[subjectTwoViewController alloc]init] animated:YES];
         }
             break;
-        case 104:
+        case 104:   //科目四
         {
-            
+            UIBarButtonItem *item=[[UIBarButtonItem alloc]init];
+            item.title=@"";
+            self.navigationItem.backBarButtonItem=item;
+            FirstViewController *firstVC=[[FirstViewController alloc]init];
+            firstVC.title=@"科目四理论考试";
+            [self.navigationController pushViewController:firstVC animated:YES];
         }
             break;
         case 105:  //报名须知
@@ -64,7 +75,7 @@
             UIBarButtonItem *item=[[UIBarButtonItem alloc]init];
             item.title=@"";
             self.navigationItem.backBarButtonItem=item;
-            [self.navigationController pushViewController:[[WebViewController alloc]initWithUrl:@"www.baidu.com"] animated:YES];
+            [self.navigationController pushViewController:[[WebViewController alloc]init] animated:YES];
         }
             break;
         case 106:  //新手上路
@@ -72,7 +83,7 @@
             UIBarButtonItem *item=[[UIBarButtonItem alloc]init];
             item.title=@"";
             self.navigationItem.backBarButtonItem=item;
-            [self.navigationController pushViewController:[[WebViewController alloc]initWithUrl:@"www.baidu.com"] animated:YES];
+            [self.navigationController pushViewController:[[WebViewControllerNew alloc]init] animated:YES];
         }
             break;
         default:

@@ -1,5 +1,5 @@
 //
-//  WebViewController.h
+//  WebViewControllerNew.h
 //  studyDrive
 //
 //  Created by GDaYao on 2017/6/23.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface WebViewController : UIViewController
+@interface WebViewControllerNew : UIViewController
 
 @end

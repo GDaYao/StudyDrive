@@ -34,7 +34,7 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return 7;
+    return 9;
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
@@ -47,7 +47,7 @@
     if(cell==nil){
         cell=[[[NSBundle mainBundle]loadNibNamed:cellId owner:self options:nil] lastObject];
     }
-    cell.titleImageView.image=[UIImage imageNamed:@""]; //科目二视频
+    cell.titleImageView.image=[UIImage imageNamed:@"drive-Spotlight@2x.png"]; //科目二视频
     cell.theTitleLabel.text=[NSString stringWithFormat:@"视频:%ld",indexPath.row];
     return cell;
 }

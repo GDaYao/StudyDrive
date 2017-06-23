@@ -24,7 +24,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.navigationItem.title=@"科目一理论考试";
+//    self.navigationItem.title=@"科目一理论考试";
     self.view.backgroundColor=[UIColor whiteColor];
     self.edgesForExtendedLayout=UIRectEdgeNone;  //自动去除导航栏的高度64.
     
@@ -50,17 +50,17 @@
     label.textAlignment=NSTextAlignmentCenter;
     label.text=@"•••••••••••••••我的考试分析•••••••••••••••";
     [self.view addSubview:label];
-    NSArray *arr=@[@"我的错题",@"我的收藏",@"我的成绩",@"练习统计"];
-    for (int i=0; i<4; i++) {
+    NSArray *arr=@[@"我的错题",@"我的收藏"];  //,@"我的成绩",@"练习统计"+self.view.bounds.size.width/4/2-30
+    for (int i=0; i<2; i++) {
         UIButton *btn=[UIButton buttonWithType:UIButtonTypeSystem];
-        btn.frame=CGRectMake(self.view.bounds.size.width/4*i+self.view.bounds.size.width/4/2-30, self.view.bounds.size.height-64-150, 60, 60);
+        btn.frame=CGRectMake(self.view.bounds.size.width/2*i+self.view.bounds.size.width/2/2-30, self.view.bounds.size.height-64-150, 60, 60);
         [btn setBackgroundImage:[UIImage imageNamed:[NSString stringWithFormat:@"%d.png",i+12]] forState:UIControlStateNormal];
         btn.tag=201+i;
         [btn addTarget:self action:@selector(clickToolsBtn:) forControlEvents:UIControlEventTouchUpInside];
 //        [btn addTarget:self action:@selector(clickBtn:) forControlEvents:UIControlEventTouchUpInside];
         [self.view addSubview:btn];
         
-        UILabel *lab=[[UILabel alloc]initWithFrame:CGRectMake(self.view.bounds.size.width/4*i+self.view.bounds.size.width/4/2-30, btn.frame.origin.y+70, 60, 20)];
+        UILabel *lab=[[UILabel alloc]initWithFrame:CGRectMake(self.view.bounds.size.width/2*i+self.view.bounds.size.width/2/2-30, btn.frame.origin.y+70, 60, 20)];
         lab.textAlignment=NSTextAlignmentCenter;
         lab.font=[UIFont boldSystemFontOfSize:13];
         lab.text=arr[i];
@@ -169,12 +169,10 @@
             break;
         case 4:  //模拟考试
         {
-            MainTestViewController *con=[[MainTestViewController alloc]init];
-            //调用下一个控制器数组 dataArray-->MyDataManager选择chapter，获取数据库中的属性。
-            
             UIBarButtonItem *testItem=[[UIBarButtonItem alloc]init];
             testItem.title=@"";
             self.navigationItem.backBarButtonItem=testItem;
+            MainTestViewController *con=[[MainTestViewController alloc]init];
             [self.navigationController pushViewController:con animated:YES];
             
         }
